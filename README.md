@@ -16,11 +16,13 @@ The application takes the simple, two character commands.  The first character
 is the track to be controlled and the second is the action to be taken.  The
 track will be a number, 1-4, and the action can be:
 
-a - Accelerate
-d - Decelerate
-s - Stop
-< - Go Forward
-> - Go Backward
+<ol>
+<li>a - Accelerate</li>
+<li>d - Decelerate</li>
+<li>s - Stop</li>
+<li>&lt; - Go Forward</li>
+<li>&gt; - Go Backward</li>
+</ol>
 
 For example, to make the train on track 2 slow down, simple send the string:
 2d
